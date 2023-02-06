@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Бегущие строки</title>
+</head>
+<body>
+    <font color="green">
+        <marquee direction="right">
+            Эта строка появляется слева и движется вправо. Она зеленая.
+        </marquee>
+    </font>
+    <font color="red">
+        <marquee direction="slide">
+            Этот красный текст пробежит и остановится.
+        </marquee>
+    </font>
+    <marquee bgcolor="red" behavior="alternate">
+        Это качающийся текст на красном фоне
+    </marquee>
+    <marquee height="100px" wight="50%" bgcolor="#9ACD32">
+        Этот текст занимает 50% ширины экрана и 100 пикселей в высоту
+    </marquee>
+    <marquee scrollamount="40" behavior="alternate" bgcolor="#FFFFE0">
+        За один шаг эта строка перемещается на 40 пикселей. Это слишком быстро
+    </marquee>
+    <marquee scrolldelay="400" behavior="alternate" bgcolor="yellow">
+        400 миллисекунд ожидается следующий шаг. Это слишком медленно.
+    </marquee>
+</body>
+</html>

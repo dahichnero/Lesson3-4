@@ -1,0 +1,56 @@
+body{
+    background-color: lightgoldenrodyellow;
+    align-content: left;
+    font-family: Verdana;
+}
+h1 {
+    color:navy;
+    font-size:20pt
+}
+h2 {
+    color: navy;
+    font-size: 14pt
+}
+ul{
+    color:green;
+    font-weight: bold;
+    font-size: 10pt
+}
+p{
+    color: black;
+    font-size:10pt;
+}
+table.plo{
+    color:navy;
+    font-size:10pt;
+}
+tr.yes{
+    background-color: deepskyblue;
+    text-align: left;
+}
+tr.no{
+    background-color:pink;
+    text-align: left;
+    font-weight: bold;
+    font-size:10pt;
+}
+p.heh{
+    color:green;
+    font-weight: bold;
+}
+a:link{
+    color:green;
+    text-decoration:none;
+}
+a:visited {
+    color: #6B8E23;
+    text-decoration:blink;
+}
+a:active {
+    color:#20B2AA;
+    text-decoration:none;
+}
+a:hover{
+    color:brown;
+    text-decoration:overline
+}
